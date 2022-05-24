@@ -1,22 +1,39 @@
 {
   "varer": [
     {
-      "name": "damecykel",
-      "desc": "En gammel havelåge",
-      "price": "300",
+      "type": "bukser",
+      "color": "blå",
+      "price": "30",
+      "size": "35",
       "owner": "Simon Nyholm"
     },
     {
-      "name": "rygsæk",
-      "desc": "slidt fjældræv",
+      "type": "hat",
+      "color": "sort",
       "price": "80",
+      "size": "68",
       "owner": "Simon Nyholm"
     },
     {
-      "name": "skjorte",
-      "desc": "Fin grøn skjorte",
-      "price": "100",
+      "type": "sweater",
+      "color": "lilla",
+      "price": "140",
+      "size": "41",
       "owner": "Simon Nyholm"
+    },
+    {
+      "type": "t-shirt",
+      "color": "grøn",
+      "price": "50",
+      "size": "31",
+      "owner": "Simon Nyholm"
+    },
+    {
+      "type": "kjole",
+      "color": "rød",
+      "price": "180",
+      "size": "34",
+      "owner": "Simone Nyholm"
     }
   ]
 }
