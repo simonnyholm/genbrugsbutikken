@@ -1,0 +1,22 @@
+{
+  "varer": [
+    {
+      "name": "damecykel",
+      "desc": "En gammel havelåge",
+      "price": "300",
+      "owner": "Simon Nyholm"
+    },
+    {
+      "name": "rygsæk",
+      "desc": "slidt fjældræv",
+      "price": "80",
+      "owner": "Simon Nyholm"
+    },
+    {
+      "name": "skjorte",
+      "desc": "Fin grøn skjorte",
+      "price": "100",
+      "owner": "Simon Nyholm"
+    }
+  ]
+}

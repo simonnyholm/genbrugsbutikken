@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navigation = () => {
   const styles = {
     navbar: css`
       padding: 20px;
@@ -41,4 +41,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
