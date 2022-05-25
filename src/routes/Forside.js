@@ -1,11 +1,36 @@
+import { useEffect, useState } from "react";
+import ProductList from "../ProductList";
+
 const Forside = () => {
- const [products, setProducts] = useState(null)
- 
+  const [products, setProducts] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      fetch("http://localhost:7000/products")
+        .then((result) => {
+          if (!result.ok) {
+            throw Error("Varen kunne ikke hentes fra databasen");
+          }
+          return result.json();
+        })
+        .then((data) => {
+          setIsLoading(false);
+          setProducts(data);
+          setError(null);
+        })
+        .catch((err) => {
+          setIsLoading(false);
+          setError(err.message);
+        });
+    }, 800);
+  }, []);
 
   return (
-    <div className="home">
-      {isPending && <div>Blogindlæg indlæses...</div>}
-      {blogs && <BlogList blogs={blogs} title="Alle blogindlæg" />}
+    <div className="forside">
+      {isLoading && <div>Varer indlæses...</div>}
+      {products && <ProductList products={products} title="Alle varer" />}
       {error && <div>{error}</div>}
     </div>
   );

@@ -1,39 +1,44 @@
 {
-  "varer": [
+  "products": [
     {
       "type": "bukser",
       "color": "blå",
       "price": "30",
       "size": "35",
-      "owner": "Simon Nyholm"
+      "owner": "Simon Nyholm",
+      "id": "1"
     },
     {
       "type": "hat",
       "color": "sort",
       "price": "80",
       "size": "68",
-      "owner": "Simon Nyholm"
+      "owner": "Simon Nyholm",
+      "id": "2"
     },
     {
       "type": "sweater",
       "color": "lilla",
       "price": "140",
       "size": "41",
-      "owner": "Simon Nyholm"
+      "owner": "Simon Nyholm",
+      "id": "3"
     },
     {
       "type": "t-shirt",
       "color": "grøn",
       "price": "50",
       "size": "31",
-      "owner": "Simon Nyholm"
+      "owner": "Simon Nyholm",
+      "id": "4"
     },
     {
       "type": "kjole",
       "color": "rød",
       "price": "180",
       "size": "34",
-      "owner": "Simone Nyholm"
+      "owner": "Simone Gammelholm",
+      "id": "5"
     }
   ]
 }

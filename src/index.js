@@ -12,9 +12,12 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Forside />} />
-          <Route path="/blogs/:id" element={<BlogDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
+
+/* 
+Dette route skal ind efter forsiden
+<Route path="/products/:id" element={<BlogDetails />} />*/
