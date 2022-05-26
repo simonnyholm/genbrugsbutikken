@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Forside from "./routes/Forside";
+import ProductDetails from "./routes/ProductDetails";
+import New from "./routes/New.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,7 +13,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
+          <Route path="/new" element={<New />} />
           <Route path="/" element={<Forside />} />
+          <Route path="/products/:id" element={<ProductDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

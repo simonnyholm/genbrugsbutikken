@@ -35,7 +35,7 @@ const Navigation = () => {
       <h1 css={styles.heading}>Genbrugsbutikken</h1>
       <div css={styles.links} className="links">
         <Link to="/">Forside</Link>
-        <Link to="/Create">Sælg</Link>
+        <Link to="/new">Sælg</Link>
       </div>
     </nav>
   );

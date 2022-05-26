@@ -5,6 +5,7 @@
       "color": "blå",
       "price": "30",
       "size": "35",
+      "desc": "De er rigtig gode til at se seje ud på gaden. Meget billige",
       "owner": "Simon Nyholm",
       "id": "1"
     },
@@ -13,6 +14,7 @@
       "color": "sort",
       "price": "80",
       "size": "68",
+      "desc": "Den er mget fin. Relativt dyr. Har aldrig været brugt mere end 30 gange.",
       "owner": "Simon Nyholm",
       "id": "2"
     },
@@ -21,6 +23,7 @@
       "color": "lilla",
       "price": "140",
       "size": "41",
+      "desc": "Den er god, hvis det er rigtig koldt. Det er en SWEATER.",
       "owner": "Simon Nyholm",
       "id": "3"
     },
@@ -29,6 +32,7 @@
       "color": "grøn",
       "price": "50",
       "size": "31",
+      "desc": "Den er meget naturli. Du har god komouflage i naturen",
       "owner": "Simon Nyholm",
       "id": "4"
     },
@@ -37,8 +41,27 @@
       "color": "rød",
       "price": "180",
       "size": "34",
+      "desc": "Den ligner Gurli Gris. Passer godt til et bryllup. Men kun ét bryllup!",
       "owner": "Simone Gammelholm",
       "id": "5"
+    },
+    {
+      "type": "hat",
+      "color": "rød",
+      "size": "32",
+      "desc": "Gammel hat med stor skygge",
+      "price": "75",
+      "owner": "Niels Ibsen",
+      "id": "X64OmbA"
+    },
+    {
+      "type": "kjole",
+      "color": "hvid",
+      "size": "56",
+      "desc": "Stor kjole",
+      "price": "370",
+      "owner": "Mona Bluhme",
+      "id": "Ldt0Snh"
     }
   ]
 }
