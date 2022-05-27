@@ -30,7 +30,8 @@ const Forside = () => {
   return (
     <div className="forside">
       {isLoading && <div>Varer indlæses...</div>}
-      {products && <ProductList products={products} title="Alle varer" />}
+      {products &&
+        products.map((card) => <ProductList product={card} key={card.id} />)}
       {error && <div>{error}</div>}
     </div>
   );

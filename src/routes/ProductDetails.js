@@ -18,7 +18,7 @@ const ProductDetails = () => {
         method: "DELETE",
       }).then(function () {
         console.log("deleted");
-        navigate("/home");
+        navigate("/");
       });
     }
   }
@@ -48,12 +48,10 @@ const ProductDetails = () => {
           <p>Om varen: {product.desc}</p>
 
           <p>Farve: {product.color}</p>
-          <p>Pris: {product.price}</p>
+          <p>Pris: {product.price} DKK</p>
           <p>Sælger: {product.owner} </p>
 
-          <button disable onClick={handleClick}>
-            Slet varen
-          </button>
+          <button onClick={handleClick}>Slet varen</button>
         </article>
       )}
     </div>

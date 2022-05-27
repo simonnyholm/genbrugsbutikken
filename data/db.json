@@ -62,6 +62,33 @@
       "price": "370",
       "owner": "Mona Bluhme",
       "id": "Ldt0Snh"
+    },
+    {
+      "type": "hat",
+      "color": "grøn",
+      "size": "76",
+      "desc": "Meget stor og fyldig hat, som min mor bar under depressionen",
+      "price": "275",
+      "owner": "Soleima Hansen Berg",
+      "id": "79nCidV"
+    },
+    {
+      "type": "t-shirt",
+      "color": "turkis",
+      "size": "23",
+      "desc": "Børnetøj",
+      "price": "70",
+      "owner": "Rina Persson",
+      "id": "j5Dwvgj"
+    },
+    {
+      "type": "kjole",
+      "color": "brun",
+      "size": "85",
+      "desc": "god og fin kjole til en 2 årig",
+      "price": "7",
+      "owner": "bah",
+      "id": "ivxHrcn"
     }
   ]
 }
