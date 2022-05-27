@@ -18,7 +18,13 @@ import turkis from "../src/img/turquoise.jpg";
 import hvid from "../src/img/white.jpg";
 import gul from "../src/img/yellow.jpg";
 
+import UseDarkMode from "./UseDarkMode";
+
 const ProductList = ({ product, title }) => {
+  const { theme, toggleTheme } = UseDarkMode();
+
+  console.log("theme", theme);
+
   const styles = {
     listTextWrap: css`
       display: flex;
@@ -26,6 +32,7 @@ const ProductList = ({ product, title }) => {
     preview: css`
       & a {
         text-decoration: none;
+        color: ${theme === "dark" ? "#fff" : "#000"};
       }
     `,
     itemDiv: css`
