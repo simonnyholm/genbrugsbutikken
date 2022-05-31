@@ -9,11 +9,11 @@ const Forside = () => {
   useEffect(() => {
     setTimeout(() => {
       fetch("http://localhost:7000/products")
-        .then((result) => {
-          if (!result.ok) {
+        .then((response) => {
+          if (!response.ok) {
             throw Error("Varen kunne ikke hentes fra databasen");
           }
-          return result.json();
+          return response.json();
         })
         .then((data) => {
           setIsLoading(false);
